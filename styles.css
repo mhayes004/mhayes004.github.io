@@ -1,0 +1,10 @@
+body{background-color: #cff4fc;}
+h1{color: #f96363; text-align: center; font-size: 70px;font-family: monospace;}
+marquee{font-size: 50px; color: #056984;}
+#one{color: #f9e562; font-size: 25px; font-family: cursive;}
+p{color: #056984; font-size: 30px; text-align: center; font-family: fantasy; border-style: dashed;}
+#two{color:#f9e562; font-size: 25px; font-family: cursive;}
+img {
+  width: 100%;
+  height: auto;
+}
