@@ -53,3 +53,17 @@ simba{width: 100%;
   color:  #777777;
     text-align: center;
 }
+#about{color: #00baaa;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 20px;}
+#activitiesList{ font-family: "Merriweather", serif;
+  font-size: 20px;
+  color:  #777777;}
+  #contact{font-family: "Merriweather", serif;
+  font-size: 20px;
+  color:  #777777;
+text-align: center;}
+#Qs{color: #00baaa;
+  font-family: "Merriweather", serif;
+  font-size: 20px;}
