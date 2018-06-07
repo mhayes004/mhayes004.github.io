@@ -52,6 +52,9 @@ font-size: 40px;
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 30px;
+  border-style: dotted;
+  border-color:#777777;
+  border-width: 7px;
 }
 simba{width: 100%;
   height: auto;}
@@ -59,6 +62,9 @@ simba{width: 100%;
   font-size: 40px;
   color:  #777777;
     text-align: center;
+   border-style: dotted;
+   border-color: #FF3B3F;
+   border-width: 7px;
 }
 #about{color: #00baaa;
   text-align: center;
@@ -66,6 +72,7 @@ simba{width: 100%;
   font-size: 30px;
   border-style: dotted;
   border-color: #777777;
+  border-width: 7px;
 }
 #activitiesList{ font-family: "Merriweather", serif;
   font-size: 30px;
@@ -83,7 +90,9 @@ text-align: center;
 }
 #Qs{color: #00baaa;
   font-family: "Merriweather", serif;
-  font-size: 30px;}
+  font-size: 30px;
+ 
+}
   
   #demo{
     color: #FF3B3F;
