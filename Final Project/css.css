@@ -14,6 +14,11 @@ body{background-color:  #CAEBF2;}
 
 a {
   color: #FF3B3F;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .navbar {
@@ -23,47 +28,67 @@ a {
   font-size: 30px;
   padding: 9px 20px;
   display: flex;
-  justify-content: space-around;
+ justify-content: space-around;
 
 }
+
+
 #newsInfo {color: #00baaa;
   text-align: left;
   font-family: "Merriweather", serif;
-  font-size: 20px;}
+  font-size: 30px;}
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #f7f7f7;
 }
 h1 {
-  font-family: "Merriweather", serif;
-  font-size: 50px; color: #FF3B3F; text-align: center;}
+  font-family: "Birch Std";
+  font-size: 100px; color: #FF3B3F; text-align: center;
+}
 marquee{
   font-family: "Merriweather", serif;
-font-size: 20px;
+font-size: 40px;
   color:  #777777;}
 #dates{
   color: #00baaa;
   text-align: center;
   font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 simba{width: 100%;
   height: auto;}
 #facebook{font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 40px;
   color:  #777777;
     text-align: center;
 }
 #about{color: #00baaa;
   text-align: center;
   font-family: "Merriweather", serif;
-  font-size: 20px;}
+  font-size: 30px;
+  border-style: dotted;
+  border-color: #777777;
+}
 #activitiesList{ font-family: "Merriweather", serif;
-  font-size: 20px;
-  color:  #777777;}
-  #contact{font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 30px;
   color:  #777777;
-text-align: center;}
+
+}
+
+#contact{font-family: "Merriweather", serif;
+  font-size: 30px;
+  color:  #777777;
+text-align: center;
+  border-style: dotted;
+  border-color:#FF3B3F;
+  border-width: 7px;
+}
 #Qs{color: #00baaa;
   font-family: "Merriweather", serif;
-  font-size: 20px;}
+  font-size: 30px;}
+  #demo{
+    color: #FF3B3F;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  text-align: center;
+  }
+  
