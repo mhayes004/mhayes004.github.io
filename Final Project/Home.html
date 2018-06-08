@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Performing for a Purpose</title>
@@ -9,18 +11,18 @@
   <body>
     <img src="P4P final logo.png" style="width: 100%; height: auto;"></img>
   
-    <div class="navbar">
-      <a href="Home.html" style= "text-decoration: none;">Home</a>
-      <a href="News.html" style= "text-decoration: none;">News</a>
-      <a href="About.html" style= "text-decoration: none;">About</a>
-      <a href="Register.html" style= "text-decoration: none;">Register</a>
-      <a href="Questions.html" style= "text-decoration: none;">Questions</a></div>
-      
+    <div class="navbar"> 
+      <a href="Home.html" style= "text-decoration: none;"><strong>Home</strong></a>
+      <a href="News.html" style= "text-decoration: none;"><strong>News</strong></a>
+      <a href="About.html" style= "text-decoration: none;"><strong>About</strong></a>
+      <a href="Register.html" style= "text-decoration: none;"><strong>Register</strong></a>
+      <a href="Questions.html" style= "text-decoration: none;"><strong>Questions</strong></a></div>
+    
     <h1>St. Monica Goes Broadway<br>2018</h1>
     <marquee>
-      A week long drama camp filled with singing, dancing, crafting, and acting!
+     <strong> A week long drama camp filled with singing, dancing, crafting, and acting!</strong>
     </marquee>
-    <div id="dates"><p>Join us from July 9-13th</p></div>
+    <div id="dates"><p><strong>Join us from July 9-13th</strong></p></div>
     <br><br>
  <p id="demo"></p>   
 <script src="java.js"></script>
@@ -33,5 +35,28 @@
   <img src="https://scontent.fcou1-1.fna.fbcdn.net/v/t1.0-9/11666093_487632034734135_1799786414952636979_n.jpg?_nc_cat=0&_nc_eui2=AeHRmmXE0ZAebj2Cp9bBRSYdbV9kj9CPx_ZH8l4t7sb9IlVjr8N51ovikOc25aclwDOI6N6z72XdQVncCtJ_F8mcp4Vk4rK1xmYTtpMOJQ73_w&oh=d85f85fdfba80f6514ce9024d88c44cd&oe=5B775010" style="width: 24.5%; height: auto;"></img>
   <img src="https://scontent.fcou1-1.fna.fbcdn.net/v/t1.0-9/11666077_487630641400941_2408748612834910862_n.jpg?_nc_cat=0&_nc_eui2=AeG0dlqze-dL1_fODy0LLHvkIrSIDHNmXN9JKRmmFfnYqeB3eLgK9b3SOH-Hl5nozGDhk3NtkxMVRfMQIbHeAvStMt1NrFkf1jVqwpt8jB10EQ&oh=783f2b0546fced114afde76a055e18c1&oe=5B77E65D" style="width: 24.5%; heigth: auto;"></img>
   <img src="https://scontent.fcou1-1.fna.fbcdn.net/v/t1.0-9/10917053_407786332718706_4219795206229728173_n.jpg?_nc_cat=0&_nc_eui2=AeEfU2pP1YZJIBy-3dTtYXCg8HbXIseKtQPnYWQWX81WsDVwLpHcwDFrpYBFirGiH1l8r6TlY00RDTagx73I_pZz1R_H53284FXAftcgg9oRIw&oh=0ff45fefce34ab26c0ba252bf434650e&oe=5B80B9E9" style=" width: 24.5%; heigth: auto;"></img>
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+  </body>
+</html>
+
   </body>
 </html>

@@ -11,7 +11,6 @@ body {
   color: #444;
 }
 body{background-color:  #CAEBF2;}
-
 a {
   color: #FF3B3F;
   text-decoration: none;
@@ -29,28 +28,37 @@ a:hover {
   padding: 9px 20px;
   display: flex;
  justify-content: space-around;
+ font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
 
 }
 
 #newsInfo {color: #00baaa;
   text-align: left;
-  font-family: "Merriweather", serif;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
   font-size: 30px;}
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #f7f7f7;
 }
 h1 {
-  font-family: "Birch Std";
+  font-family: 'Sacramento', cursive;
   font-size: 100px; color: #FF3B3F; text-align: center;
 }
 marquee{
-  font-family: "Merriweather", serif;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
 font-size: 40px;
   color:  #777777;}
 #dates{
   color: #00baaa;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
   font-size: 30px;
   border-style: dotted;
   border-color:#777777;
@@ -58,7 +66,9 @@ font-size: 40px;
 }
 simba{width: 100%;
   height: auto;}
-#facebook{font-family: "Merriweather", serif;
+#facebook{font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
   font-size: 40px;
   color:  #777777;
     text-align: center;
@@ -68,19 +78,25 @@ simba{width: 100%;
 }
 #about{color: #00baaa;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
   font-size: 30px;
   border-style: dotted;
   border-color: #777777;
   border-width: 7px;
 }
-#activitiesList{ font-family: "Merriweather", serif;
+#activitiesList{ font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
   font-size: 30px;
   color:  #777777;
 
 }
 
-#contact{font-family: "Merriweather", serif;
+#contact{font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
   font-size: 30px;
   color:  #777777;
 text-align: center;
@@ -89,15 +105,42 @@ text-align: center;
   border-width: 7px;
 }
 #Qs{color: #00baaa;
-  font-family: "Merriweather", serif;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
   font-size: 30px;
  
 }
   
   #demo{
     color: #FF3B3F;
-  font-family: "Merriweather", serif;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
   font-size: 30px;
   text-align: center;
   }
+  
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #FF3B3F;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
+}
+
+#myBtn:hover {
+  background-color: #777777;
+}
   
