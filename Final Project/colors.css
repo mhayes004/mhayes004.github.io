@@ -31,7 +31,11 @@ a:hover {
  font-family: 'Dancing Script', cursive;
 font-family: 'Amatic SC', cursive;
 font-family: 'Poiret One', cursive;
-
+position: fixed;
+left: 0;
+top: 95px;
+width: 100%;
+z-index: 500;
 }
 
 #newsInfo {color: #00baaa;
@@ -143,4 +147,3 @@ font-family: 'Poiret One', cursive;
 #myBtn:hover {
   background-color: #777777;
 }
-  
